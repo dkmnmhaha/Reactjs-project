@@ -1,0 +1,352 @@
+body{
+    font-family: 'Open Sans';
+  
+}
+
+.Divlogin{
+    background-color: rgba(10, 56, 97, 0.281);
+    opacity: 1;
+    height: 690px;
+    width: 540px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    justify-content: center;
+    text-align: left;
+    
+
+}
+.Divlogin .DivHeader{
+
+    color: rgb(49,215,169);
+    position: absolute;
+    width: 540px;
+    left: 50%;
+    top:20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 0.5
+
+}
+.Divlogin .DivHeader h1{
+    color: white;
+   
+    font-weight: bold;
+}
+.Divlogin .DivHeader h3{
+    color: #31d7a9;
+    
+    font-weight: 600;
+
+
+}
+.btnlg{
+    
+        background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+        background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+        background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+        box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+        border-radius: 100px;
+        position: absolute;
+        left: 130px;
+        border: none;
+        width: 201px;
+        height: 51px;
+        z-index: 34;
+        color: white;
+        font-weight: bold;
+    
+
+          
+}
+
+
+.DivForm{
+
+    position: absolute;
+    line-height: 2;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    
+    
+
+}
+.DivForm .inp{
+    border-width:1px;
+    border: none;
+    border-bottom: 1px solid #253553;
+    outline:none;
+    background-color: rgba(10, 56, 97, 0);
+    width: 444px;
+    font-size: 16px
+}
+.DivForm .inp:focus { 
+    outline: none !important;
+    border-bottom: 1px #af3e31;
+    box-shadow: 0 1px 0 0 #af3e31;
+ }
+
+.DivForm .mark{
+    color: red;
+}
+.DivForm .chbx {
+ background-color: #31d7a9;
+  }
+.container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #364475;
+
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: #eee;
+    border-radius: 50%
+  }
+  /* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #3d34c3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 3px;
+    top: 1px;
+    width: 5px;
+    height: 5px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+.forgot{
+    
+    position: relative;
+    padding-left:100px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #364475;
+}
+.Divlogin .DivFooter{
+
+    
+    position: absolute;
+    width: 540px;
+    left: 50%;
+    top:73%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 0.5
+
+}
+.Divider1 {
+    
+    background-color: rgb(189, 189, 189);
+    opacity: 0.502;
+    position: absolute;
+    top: 40px;
+    Left: 45px;
+    width: 200px;
+    height: 1px;
+    z-index: 24;
+    text-align: center;
+    color: white;
+    
+}
+.Divider2 {
+    
+    background-color: rgb(189, 189, 189);
+    opacity: 0.502;
+    position: absolute;
+    top: 40px;
+    right: 45px;
+    width: 200px;
+    height: 1px;
+    z-index: 24;
+    text-align: center;
+    color: white;
+    
+}
+.DivFooter h5{
+    position: relative;
+    top: 10px;
+    text-align:  center;
+    color: white;
+}
+.DivFooter2{
+    position: absolute;
+    width: 540px;
+    left: 50%;
+    top:80%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 0.5
+}
+.DivFooter2 h5{
+    position: relative;
+    top: 10px;
+    text-align:  center;
+    color: white;
+}
+
+
+  
+/*fb*/
+.bgfb {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(22, 43, 97);
+    border-radius: 50%;
+    background-color: rgba(12, 18, 32, 0);
+    position: absolute;
+    left: 180px;
+    top: 70px;
+    width: 46px;
+    height: 46px;
+    z-index: 10;
+  }
+  .bgfb .icofont-facebook {
+    font-size: 16px;
+    font-family: "icofont";
+    color: rgb(73, 108, 254);
+    line-height: 0.625;
+    text-align: center;
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    z-index: 11;
+  }
+.bgfb:hover{
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+
+}
+.bgfb:hover .icofont-facebook{
+    color: rgb(243, 244, 247);
+}
+/*tw*/
+.bgtw {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(22, 43, 97);
+    border-radius: 50%;
+    background-color: rgba(12, 18, 32, 0);
+    position: absolute;
+    left: 247px;
+    top: 70px;
+    width: 46px;
+    height: 46px;
+    z-index: 10;
+  }
+  .bgtw .icofont-twitter {
+    font-size: 16px;
+    font-family: "icofont";
+    color: rgb(73, 108, 254);
+    line-height: 0.625;
+    text-align: center;
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    z-index: 11;
+  }
+.bgtw:hover{
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+
+}
+.bgtw:hover .icofont-twitter{
+    color: rgb(243, 244, 247);
+}
+
+/*gg*/
+.bggg {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(22, 43, 97);
+    border-radius: 50%;
+    background-color: rgba(12, 18, 32, 0);
+    position: absolute;
+    left: 313px;
+    top: 70px;
+    width: 46px;
+    height: 46px;
+    z-index: 10;
+  }
+  .bggg .icofont-google-plus {
+    font-size: 16px;
+    font-family: "icofont";
+    color: rgb(73, 108, 254);
+    line-height: 0.625;
+    text-align: center;
+    position: absolute;
+    left: 15px;
+    top: 18px;
+    z-index: 11;
+  }
+.bggg:hover{
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+
+}
+.bggg:hover .icofont-google-plus{
+    color: rgb(243, 244, 247);
+}
+
+
+  

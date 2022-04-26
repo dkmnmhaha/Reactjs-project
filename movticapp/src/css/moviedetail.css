@@ -1,0 +1,1474 @@
+.header.moviedetail{
+    height:500px;
+    width: 100%;
+    background-image: url("../img/Moviedetailpage.png");
+    background-position:fixed;
+    background-repeat:no-repeat;
+
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    padding-top: 200px;
+    box-sizing: border-box;
+   
+    
+  }
+.footbr{
+    margin-top: 120px;
+    background-image: url("../img/footbarbackground.png");
+    width: 1110px;
+    height: 352px;
+    z-index: 3;
+    text-align: left;
+  }
+  .footcntent{
+
+    height: 267px;
+    width: 1110px;
+    
+    position: absolute;
+    z-index: 3;
+    
+  }
+.NavBar.moviedetail{
+    border-bottom: 1px solid white;
+}
+.movieleftbar{
+    
+    margin-top: 136px;
+    float: left ;
+    width: 255px;
+}
+.movie-poster{
+    width: 255px;
+    height: 387px;
+    background-color: grey;
+}
+.resolution-button{
+    margin-top: 30px;
+    width: 255px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 3fr));
+    gap:20px;  
+
+}
+.resolution-button button{
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #213250;
+    color: aliceblue;
+}
+.movieleftbar h1{
+    margin-top: 33px;
+    font-size: 28px;    
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.357;
+
+}
+.offers-grids{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0px, 3fr));
+    gap:20px; 
+}
+.offers-grid{
+padding:  20px ;
+    text-align: left;
+    border: 1px dashed #213250; 
+    border-radius: 10px;
+}
+
+.offers-grid a{
+
+    
+    color:#9aace5;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: right;
+    
+}
+.offers-grid label{
+    
+    color: rgb(233, 238, 255);
+    line-height: 1.3;
+    font-size: 16px;
+}
+.imgleftbar{
+    width: 255px;
+    height: 241px;
+    background-color: grey;
+    margin-top:40px;
+}
+.rightzone{
+    
+    width:825px;
+    float: right;
+    margin-top: 136px;
+    text-align: left;
+
+
+}
+
+.clear {
+    clear: both;
+}
+.ddd{
+    background-image: url("../img/bgbar.png");
+    margin-top: 220px;
+    width: 100%;
+    height: 148px;
+    background-color: #9aace5;
+    z-index: 1;
+    border-bottom: 1px solid #17305f;
+    border-top: 1px solid #17305f;
+}
+.categories.moviedetail-style{
+    margin-top: -150px;
+}
+.movie-info h1{
+    line-height: 0;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.movie-info b{
+    font-size: 14px;
+    color: rgb(154, 172, 229);
+    line-height: 1.714;
+}
+.movie-info button{
+    margin-top: 30px;
+    margin-bottom:20px ;
+    height: 36px;
+    width: 90px;
+    border: 1px solid #213250;
+    border-radius: 18px;
+    background-color: #21325000;
+    color: #9aace5;
+   
+}
+.movie-info .icofont-ui-calendar,.icofont-clock-time,a{
+    color: rgb(154, 172, 229);
+  
+}
+.movie-info a{
+    margin-right: 20px;
+}
+.iconrows{
+    
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 600px;
+    color: white;
+}
+.iconrows > i{
+    padding-left: 20px;
+}
+.iconrows .icofont-facebook:hover{
+    color:aqua
+}
+.iconrows .icofont-twitter:hover{
+    color:aqua
+}
+.iconrows .icofont-google-plus:hover{
+    color:aqua
+}
+.iconrows .icofont-instagram:hover{
+    color:aqua
+}
+.iconrows .icofont-pinterest:hover{
+    color:aqua
+}
+.movierating{
+    margin-top: 70px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0px, 3fr));
+    gap:10px; 
+    
+}
+.rate-movie img{
+    margin-right: 10px;
+}
+.rate-movie .icofont-heart{
+    
+    padding: 0;
+    line-height: 0;
+    color: #f1481f;
+    
+}
+.rate-movie b{
+    margin-right: 10px;
+    color: aliceblue;
+    font-size: 24pt;
+    line-height: 0;
+}
+.rate-movie.rate .icofont-heart{
+color: #223c6e
+}
+.rate-movie.rate{
+    direction: rtl
+}
+.rate-movie.rate b{
+    margin-left: 10px;
+}
+.rate-movie.rate i:hover{
+    color: #f1481f;
+}
+.rate-movie.rate .s1:hover ~ i{
+    color: #f1481f;
+  }
+  .rate-movie.rate .s2:hover ~ i{
+    color: #f1481f;
+  }
+  .rate-movie.rate .s3:hover ~ i{
+    color: #f1481f;
+  }
+  .rate-movie.rate .s4:hover ~ i{
+    color: #f1481f;
+  }
+  .rate-movie.rate  .s5:hover ~ i{
+    color: #f1481f;
+  }
+  .movierating button{
+      
+      width: 160px;
+      height: 50px;
+      background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+      background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+      background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+      border-radius: 25px;
+      border: none; 
+      font-size: 16px; 
+      font-weight: bold;
+      line-height: 1.75;
+      color: white;
+  }
+  .Photos-zone{
+    margin-top: 140px;
+  }
+  .Photos-zone h1{
+        font-size: 28px;
+        color: rgb(233, 238, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.357;   
+  }
+  .Photos-grid{
+      width: 825px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30px, 3fr));
+    gap:30px; 
+  }
+  .Photos-grid img{
+      width: 255px;
+      height: 136px;
+      border-radius: 5px;
+  }
+  .summary-review-header{
+      margin-top: 60px;
+      height: 60px;
+      border-bottom: 1px solid #213250;
+      border-top: 1px solid #213250;
+  }
+
+  
+  .summary-review-bar  li {
+    float: left;
+  }
+  
+  .summary-review-bar li a {
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-align: center;
+    
+    padding: 18px ;
+    text-decoration: none;
+    
+  }
+  
+  .summary-review-bar li a:hover {
+    
+    color: #31d7a9;
+    border-bottom:2px solid #31d7a9;
+    border-top:2px solid #31d7a9;
+  }
+  .summary-review-bar li a.active {
+    
+    color: #31d7a9;
+    border-bottom:2px solid #31d7a9;
+    border-top:2px solid #31d7a9;
+  }
+  .Main-intro h2{
+    
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.417;   
+  }
+  .Main-intro p{
+        font-size: 16px;
+        color: rgb(189, 202, 243);
+        line-height: 1.75;
+
+    
+      
+  }
+  .cast-crew-header{
+        border-bottom: 1px dotted rgb(50, 53, 118);
+      }
+.cast-crew-header a{        
+    font-size: 24px;           
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.417;
+            
+}
+          
+
+      
+.icofont-curved-double-left {
+
+    color: aliceblue;
+    margin-left: 710px;
+
+
+}
+.icofont-curved-double-left:hover{
+    color: #31d7a9;
+}
+.icofont-curved-double-right{
+
+    color: aliceblue;
+
+    margin-left: 10px;
+
+}
+ .icofont-curved-double-right:hover{
+    color: #31d7a9;
+}
+.cast-crew{
+    margin-top: 30px;
+}
+.cast-crew-pic{
+    border-radius: 50%;
+    width: 132px;
+    height: 132px;
+    border: 1px solid #135c5f;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.pic-cast-crew {
+    width: 102px;
+    height:102px;
+    border-radius: 50%;
+    border: 2px solid #31d7a9;
+    margin: 13px 13px;
+}
+.cast-crew-name{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.556;
+}
+.cast-crew-occupation {
+    font-size: 14px;
+    color: rgb(49, 215, 169);
+    line-height: 1.714;
+}
+  .cast-crew-as {
+    font-size: 14px;
+    color: rgb(154, 172, 229);
+    line-height: 1.714;
+}
+.cast-crew-grid{
+    text-align: center;
+
+}
+.user-review{
+    border-bottom: 1px dashed #a9a9a9;
+    height:100%
+}
+.user-review-pic{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #135c5f;
+    text-align: center;
+    margin-top: 40px;
+}
+.pic-user-review{
+    width: 49px;
+    height:49px;
+    border-radius: 50%;
+    border: 3px solid #31d7a9;
+    margin: 5px 5px;
+}
+.review-grid{
+    width: 825px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(30px, 3fr));
+ 
+}
+
+.review-name{
+    float: left;
+    margin-left:30px;
+    margin-top:30px;
+    width:160px;
+}
+.review-content{
+    margin-left:30px;
+    float: left;
+    width: 540px;
+
+    margin-top:30px;
+}
+.user-piczone{
+    
+    float: left;
+    width: 65px;
+    height: 200px;
+
+}
+.review-date{
+  font-size: 13px;
+  color: rgb(189, 202, 243);
+  line-height: 2.154;
+}
+.reviewer {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.556;
+  }
+  .Verified {
+    font-size: 13px;
+
+    color: rgb(189, 202, 243);
+    line-height: 1.846;
+
+  }
+  .content-review{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.75;
+  }
+  .all-review {
+    font-size: 16px;
+    color: rgb(189, 202, 243);
+    line-height: 1.75;
+  }
+  .review-content i{
+    
+    padding: 0;
+    line-height: 0;
+    color: #f1481f;
+      
+  }
+  .like-dislike{
+    color: rgb(189, 202, 243);
+    margin-top: 30px;
+  }
+  .loadmore {
+      color: white;
+      border:1px solid #fbfaff;
+    border-radius: 25px;
+    width: 180px;
+    height: 50px;
+    margin-top:40px;
+    margin-left: 323px;
+    background-color: #21325000;
+  }
+  .DivIntro-moviedetail{
+
+    text-align: center;
+  }
+  .categories{
+      text-align: left;
+      height: 148px;
+      width: 100%;
+
+      margin-top:120px;
+
+      display: grid;
+      grid-template-columns: repeat(4, minmax(250px, 0fr));
+      gap:0px; 
+  }
+  .search-item{
+      margin-top:50px
+  }
+
+  .pick-item{
+      margin-top: 15px;
+      margin-left:60px;
+      position: absolute;
+
+  }
+  .pick-item label{
+        font-size: 16px;
+        color: rgb(49, 215, 169);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.75;
+
+      
+  }
+  .pick-item select{
+    background-color: #00123200;
+    color: rgba(255, 255, 255, 0.616);
+    border:none;
+    font-size: 16pt;
+
+  }
+  .pick-item option{
+      background-color: #010713a1;
+  }
+  .pick-item input{
+    border-width:1px;
+    border: none;
+    border-bottom: 2px solid #f5f6f8;
+    outline:none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20px;
+    color: white;
+    width: 100px;
+  }
+.rightbanner{
+    
+    float: right;
+    height: 587px;
+    width:255px;
+    background-color: grey;
+}
+.rightbar2.moviedetail{
+    margin-top:120px;
+    background-color: #f1481f;
+}
+
+.booking-zone{
+    float: left;
+
+    width: 825px;
+
+}
+.booking-item{
+
+    text-align: left;
+    height: 97px;
+    width: 825px;
+    border-bottom: 1px solid #17305f;
+    z-index: 0;
+}
+.booking-item .icofont-heart{
+    color: #adb5c5a9;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+    
+}
+.booking-item .icofont-heart:hover{
+    color:#f1481f
+
+}
+.booking-name{
+    position: absolute;
+padding-top: 30px;
+ width: 350px;
+
+
+}
+.booking-name a{
+    
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 1.75;    
+}
+  
+
+.bggps{
+    position: absolute;
+    left: 300px;
+    width: 30px;
+    height: 30px;
+    background-color: #17305f;
+    border-radius: 50%;
+    border:none;
+    background-image: url("../../public/img/gpsicon.png");
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 7px;
+}
+.bggps image{
+    width: 30px;
+    height: 30px;
+}
+.bggps:hover{
+    background-color: #31d7a9;
+}
+.booking-tickets{
+    position: absolute;
+    margin-left: 411px;
+    margin-top:30px;
+    width: 384px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, minmax(70px, 0fr));
+    gap:30px; 
+
+    
+
+}
+.ticket-background{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+    line-height: 2.5;
+    width: 70px;
+    height:37px;
+    background-image: url("../img/ticket_bg.png");
+    color: white;
+    font-size: 16PX;
+}
+.ticket-background a{
+    color:white;
+}
+.ticket-background:hover{
+    background-image: url("../img/ticket_bghover.png");
+}
+  
+  
+
+
+
+  
+.center {
+    position: absolute;
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hideform {
+    display: none;
+}
+.choose-item{
+    margin-left: 150px;
+    width: 300px;
+    margin-top: 60px;
+}
+.choose-item input{
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+}
+.choose-item label{
+    font-size: 16px;
+
+    color: rgb(181, 199, 255);
+    text-transform: uppercase;
+    line-height: 1.75;
+}
+.categories button{
+
+        border-radius: 23px;
+        background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+        background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+        background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+        box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5);
+        width: 149px;
+        height: 45px;
+        margin-top: 50px;
+        color: #ffffff;
+        border: none;
+
+
+}
+.time-left{
+    text-align: center;
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 500px;
+    color: white;
+}
+.rightbar2.seat-select{
+    margin-top: 120px;
+    width: 100%;
+    height:100%;
+ 
+
+}
+.Scren-position .header-position{
+    margin-left:380px ;
+    width: 350px;
+    
+    padding: 10px;
+    border-top: 1px solid #223c6e;
+    border-bottom: 1px solid #223c6e; 
+}
+.header-position a{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.357;
+
+}
+.silver-gold{
+    margin-top:60px;
+    margin-left:380px ;
+    width: 350px;
+    
+    padding: 10px;
+    border-top: 1px solid #223c6e;
+    border-bottom: 1px solid #223c6e; 
+}
+.silver-gold a{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.357;
+    color: #31d7a9;
+}
+
+.seat-img{
+    background-image: url(../img/seat-blank.png);
+    width: 41px;
+    height: 39px;
+}
+.seat-img:hover{
+    background-image: url(../img/seat-choose.png);
+
+    width: 41px;
+    height: 39px;
+    
+}
+.seat-img a{
+    line-height: 2;
+    color: #00123200;
+}
+.seat-img:hover a{
+    color: white;
+}
+.grid-4-2{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(42px, 0fr));
+    gap:18px; 
+}
+.grid-6-2{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(auto, auto));
+    gap:18px; 
+}
+.silver-plus-grid{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(auto, auto));
+    gap:70px; 
+
+
+}
+.column-grid{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(auto, auto));
+    gap:20px; 
+}
+.silver-plus-grid a{
+    margin-top: 10px;
+
+}
+.seat-img.active{
+    background-image: url(../img/seat-full.png);
+}
+.grid2-2{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, 0fr));
+    gap: 0px; 
+}
+.grid2-2:hover .seat-img{
+    background-image: url(../img/seat-choose.png);
+}
+.grid2-2:hover a{
+    color: white;
+}
+
+
+.grid-4-2.type2{
+    grid-template-columns: repeat(2, minmax(auto, auto  ));
+    gap:40px;
+}
+.grid-6-2.type2{
+    grid-template-columns: repeat(3, minmax(auto, auto  ));
+    gap:40px;
+}
+.chosed-seat{
+    background-image: url(../img/chosedseat.bg.png);  
+    background-image: url(../img/illustration_bg.png); 
+    width: 1110px;
+    height: 145px;
+    margin-top: 120px;
+}
+.chosedseat-info{
+    text-align: left;
+    margin-left: 60px;
+    margin-top:40px;
+    float: left;
+    
+}
+.chosedseat-info h1{
+    color: #31d7a9;
+    margin:0
+    
+}
+.chosedseat-price h1{
+    color: #31d7a9;
+    margin:0
+    
+}
+
+.chosedseat-price{
+    margin-top:40px;
+    float: left;
+    margin-left: 295px;
+}
+.chosed-seat button{
+    margin-top: 48px;
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-left: 296px;
+        font-size: 16px;
+        color: rgb(254, 254, 254);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.75;
+
+}
+.foodorder{
+    float: left;
+
+    width: 730px;
+
+}
+.booking-summary{
+    background-color:  #032055;
+    background-image: url("../img/ticketbackground.png");
+    float: right;
+    width: 350px;
+    height: 700px;
+    text-align: left;
+  
+    background-repeat: no-repeat;
+    
+}
+.leftbanner1.bnn730-167{
+    width: 730px;
+    height: 167px;
+    margin-top: 0px;
+}
+.foodintro{
+    margin-top: 120px;
+}
+.foodintro1{
+    font-size: 24px;
+    color: rgb(49, 215, 169);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.417;
+}
+.foodintro2 {
+    font-size: 50px;
+    color: rgb(233, 238, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+
+}
+.foodintro3 {
+    font-size: 18px;
+    color: rgb(232, 238, 255);
+    line-height: 1.556;
+
+  }
+  .btngrid{
+      margin-top: 60px
+  }
+  .btngrid button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(17, 50, 111);
+    border-radius: 40px;
+    background-color: #001232;
+    font-size: 16px;
+    color: rgb(191, 206, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    padding: 5px 30px
+}
+.btngrid button:hover{
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+}
+.foodgrid{
+    margin-top:40px;
+    width: 730px;
+}
+.foodcard{
+    border-radius: 10px;
+    width: 350px;
+    background-color: #032055;
+
+
+}
+.foodimg{
+    width: 350px;
+    height: 246px;
+    border-radius: 10px;
+}
+.foodcontent{
+    width: 350px;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+.foodcontent a{
+
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.417;
+}
+.Line_dashed.foodcard{
+
+    border-bottom:1px dashed rgb(26, 70, 150) ;
+    width: 294px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.foodnumber{
+    margin-top: 30px;
+}
+.foodnumber input[type="number"] {
+  -webkit-appearance: textfield;
+     -moz-appearance: textfield;
+          appearance: textfield;
+}
+.foodnumber input[type=number]::-webkit-inner-spin-button, 
+.foodnumber input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+
+
+.foodnumber input{
+    color: wheat;
+    text-align: center;
+    background-color: #00123200;
+    height: 38px;
+    width: 68px;
+    border: none;
+    border-top:1px solid rgb(17, 50, 111) ;
+    border-bottom:1px solid rgb(17, 50, 111)
+}
+.decrease{
+    color: white;
+    width: 39px;
+    height:42px;
+    border: 1px solid rgb(17, 50, 111) ;
+    background-color: #00123200;
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius:20px  ;
+}
+.increase{
+    color: white;
+    width: 39px;
+    height:42px;
+    border: 1px solid rgb(17, 50, 111) ;
+    background-color: #00123200;
+    border-bottom-right-radius: 20px ;
+    border-top-right-radius:20px  ;
+}
+.addfood{
+    margin-left: 20px;
+    border-radius: 20px;
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    width: 110px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.75;
+    margin-bottom: 30px;
+
+}
+.pricetag{
+
+    position: absolute;
+    margin-left: 25px;
+    background-image: url(../img/pricetag.png) ;
+    width: 60px;
+    height: 77px;
+}
+.pricetag a{
+    
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.5;
+}
+.discounttag{
+    border-radius: 50%;
+    background-color: rgb(235, 20, 54);
+    box-shadow: 0px 29px 10px 0px rgba(1, 23, 63, 0.5);
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    margin-top: 20px;
+    margin-left: 262px;
+}
+.discounttag b{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+.foodgrid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, auto));
+    gap:30px; 
+
+}
+.tickethead{
+    width: 290px;
+    height: 82px;
+    border-bottom: 1px dashed #1a4696;
+    margin-left: 30px;
+}
+.tickethead a{
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 3;
+
+  }
+  .ticketbodyinf{
+      background-color: #032055;
+      width: 290px;
+      height: 233px;
+      border-bottom: 1px dashed #1a4696;
+      margin-left: 30px;
+  }
+  .leftinf{
+      float:left;
+      text-align: left;
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(1, minmax(auto, auto));
+      gap:0px; 
+  
+  }
+.white-24pt {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    
+}
+.white-18pt {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.white--16pt {
+    font-size: 16px;
+    color: rgb(154, 172, 229);
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.white-16pt {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.white-14pt {
+    font-size: 14px;
+    color: rgb(154, 172, 229);
+    font-weight: bold;
+}
+.white{
+    color: white;
+}
+.white-12pt {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+  }
+  .normalfont{
+    font-weight: normal;
+}
+  
+  .rightinf{
+      float:left;
+      margin-top: 30px;
+      margin-left: 80px;
+      display: grid;
+      grid-template-columns: repeat(1, minmax(auto, auto));
+      gap:0px; 
+  }
+  .rightinf.ticket{
+    
+    margin-top: 120px;
+
+
+}
+  .ticketbodyinf.foodinf{
+      height: 150px;
+      
+  }
+  .rightinf.foodinf{
+      margin-top: 30px;
+      display: grid;
+      grid-template-columns: repeat(1, minmax(auto, auto));
+      gap:20px; 
+  }
+  .rightinf.price{
+    margin-left:200px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(auto, auto));
+    gap:0px; 
+}
+.ticketbodyinf.price{
+    border:none;
+    height: 110px;
+}
+.payable-amount{
+    border-top:1px dashed #1a4696 ;
+    background-color: #05245c;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.payable-amount button{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+    
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    border: none;
+}
+.member-signin{
+    text-align: left;
+    background-color: #032055;
+    padding:30px;
+}
+.icofont-ui-user{
+    color: white;
+
+}
+.sign-in{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 600px;
+
+}
+.sign-in button{
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+.contact-detail{
+    background-color: #032055;
+    margin-top: 30px;
+    padding: 30px;
+    text-align: left;
+}
+.Line_dashed.contact-detail{
+    width: 610px;
+    margin-left: 0px;
+    margin-top: -30px;
+
+}
+.normalinput{
+    text-align: left;
+    width: 300px;
+    height: 40px;
+    background-color: #12387e00;
+    border: none;
+    border-bottom: 1px solid #12387e;
+    margin-top: 30px ;
+    margin-right: 30px;
+
+
+}
+.contact-detail .normalbtn{
+    border: none;
+    border-radius: 20px;
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    padding: 10px 39px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+  
+.payment-option{
+    width: 104px;
+    height: 91px;
+    
+    padding-top: 10px;
+
+}
+.card-option{   
+    
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(21, 57, 123);
+    border-radius: 10px;
+    background-color: rgb(3, 32, 85);
+    width: 90px;
+    height: 80px;
+    margin-top: 9px;
+    margin-right: 14px;
+    z-index: 1;
+  }
+
+
+  .tick{
+      position: absolute;
+      margin-left: 67px;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      border-style: solid;
+      border-width: 4px;
+      border-color: rgb(3, 32, 85);
+      background-color:rgb(68, 65, 231) ;
+      text-align: center;
+      z-index: 2;
+      
+  }
+.payment-option .icofont-tick-mark{
+    width: 18px;
+    height: 16px;
+    color: white;
+    
+}
+.payment-grid{
+    width: 330px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30px, auto));
+    gap:0px; 
+    margin-bottom: 30px;
+}
+.div-detail{
+    margin-top: 20px;
+}
+.div-detail label{
+    
+    font-size: 16px;
+    color: rgb(154, 172, 229);
+}
+.div-detail input{
+    font-size: 15pt;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(18, 56, 126);
+    border-radius: 10px;
+    width: 674px;
+    height: 64px;
+    background-color: #00123200;
+}
+.grid{
+    width: 670px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, auto));
+    gap:30px; 
+}
+.div-detail.half input{ 
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(18, 56, 126);
+    border-radius: 10px;
+    width: 320px;
+    height: 64px;
+}
+.toggle{
+    display: inline-block;
+    height: 32px;
+    margin-top: 30px;
+  
+}
+.toggle input[type="checkbox"]{
+     display: none;
+}
+.toggle .slider{
+    background-color: #9c9c9c;
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+    transition: .4s;
+    position: relative;
+    border-radius: 50px;
+}
+.toggle input:checked ~ .slider {
+    background-color: #3d34c3;
+
+  }
+  .slider:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .toggle input[type="checkbox"]:checked ~ .slider:after {
+    display: block;
+  }
+  .toggle .slider:after {
+    left: 7px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 6px 6px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .toggle.left{
+      margin-left: 20px;
+    position: absolute;
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    color: rgb(212, 227, 255);
+    line-height: 1.75;
+  }
+  .white-14pt.quickpay{
+    font-weight:normal;
+    margin-left: 20px;
+  }
+.makepayment{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    width: 190px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.75;
+    font-size: 16px;
+}
+
+  
+.bg {
+  
+  position: absolute;
+  left: 435px;
+  top: 2037px;
+
+  z-index: 63;
+}
+.carousel-button-group{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 70px;
+}
+.popuppage{
+    text-align: center;
+    width: 540px;
+    height: 417px;
+    border-radius: 20px;
+    background-color:white;
+    position: fixed;
+    margin: auto;
+    right: 0;left: 0;
+    
+    top:30px;
+    padding: 60px;
+    box-sizing: border-box;
+    z-index: 4;
+    align-items: center;
+    justify-content: center;
+   
+}
+.popuppage-none{
+    display: none;
+    width: 540px;
+    height: 417px;
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0);
+    position: fixed;
+    top: 344px;
+    margin-left: 300px;
+
+   
+}
+
+  .black-18{
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .aqua-50{
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .popuppage .seat-img{
+      float: left;
+  }
+  .popuppage .Seat{
+    margin: auto;
+
+}
+.Link{
+    text-decoration: none;
+}

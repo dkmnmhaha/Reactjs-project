@@ -1,0 +1,464 @@
+.eventdetail-body-info.aboutus{
+    margin-top: 280px;
+}
+.w1517x820{
+    width: 1517px;
+    height: 830px;
+
+    margin-left: -405px;
+}
+.philosophy{
+    width: 824px;
+    height: 590px;
+    background-color:  #001232;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 287px;
+    padding: 60px 0 0 30px;
+    box-sizing: border-box;
+}
+.icon_left{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding:15px 10px;
+    
+
+}
+.txt_right{
+margin-top: -50px;
+margin-left: 90px;
+
+}
+
+.philosophy .icon-txt{
+    margin-top: 30px;
+
+}
+.eventdetail-body-info.funfact{
+    text-align: left;
+    width: 350px;
+    float: left;
+}
+.funfact-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, auto));
+    gap:100px; 
+    float: left;
+    margin-top: 120px;
+    margin-left: 60px;
+   
+}
+.imgh625{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    width: 1920px;
+    height: 625px;  
+    background-color: rgb(169, 169, 169);
+    
+  
+  
+  }
+  .imgh625 img{
+    width: 1920px;
+    height: 625px;
+    position: relative;
+    z-index: 1;
+  
+  }
+  .imgh625.layer{
+    position: relative;
+    margin-top: -630px;
+    width: 1920px;
+    height: 625px;  
+    background-color: rgb(0, 18, 50);
+    opacity: 0.6;
+    z-index: 2;
+  }
+  .eventdetail-body-info.testimonials{
+      position: relative;
+      margin-top: -505px;
+      margin-bottom: 250px;
+      z-index: 3;
+  }
+
+  .bordered-icon {
+      margin-bottom: 30px;
+    margin-top: 50px;
+      margin-left: 518px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(49, 215, 169);
+    border-radius: 50%;
+    background-color: rgba(0, 17, 55, 0.2);
+    width: 78px;
+    height: 78px;
+  }
+  .imageholder-inside {
+    margin: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(49, 215, 169);
+  border-radius: 50%;
+  background-color: rgb(169, 169, 169);
+  width: 64px;
+  height: 64px;
+}
+.pic-holder-1 {
+     grid-area: left1;
+     width: 255px;
+     height: 184px; 
+
+}
+.pic-holder-2 { 
+    grid-area: left2;
+    width: 255px;
+    height: 184px; 
+
+}
+.pic-holder-3 { 
+    grid-area: mid; 
+    width: 540px;
+    height: 398px; 
+}
+.pic-holder-4 { 
+    grid-area: right1; 
+    width: 255px;
+    height: 184px; 
+}
+.pic-holder-5 { 
+    grid-area: right2; 
+    width: 255px;
+    height: 184px; 
+}
+.pic-holder-6 { 
+    grid-area: footer1; 
+    width: 255px;
+    height: 264px; 
+}
+.pic-holder-7 { 
+    grid-area: footer2; 
+    width: 255px;
+    height: 264px; 
+}
+.pic-holder-8 { 
+    grid-area: footer3; 
+    width: 255px;
+    height: 264px; 
+}
+.pic-holder-9 { 
+    grid-area: footer4; 
+    width: 255px;
+    height: 264px; 
+}
+
+.grid-pic-holder {
+    margin-top: 60px;
+  display: grid;
+  grid-template-areas:
+    'left1 mid mid right1 '
+    'left2 mid mid right2 '
+    'footer1 footer2 footer3 footer4';
+  gap: 30px;
+
+
+}
+
+.grid-pic-holder > div {
+  background-color: grey;
+  text-align: center;
+
+}
+.event-text-info.guarantees{
+    margin-top: 120px;
+}
+.event-text-info.guarantees .icon-txt{
+    margin-top: 30px;
+
+}
+.event-text-info.guarantees .txt_right{
+    margin-top: -70px;
+
+}
+.event-pic-info.guarantee{
+    margin-top: 120px;
+}
+.speaker-detail.appdownload{
+    text-align: center;
+    display: block;
+    padding-bottom: 0px;
+    
+  
+}
+.img-holder{
+    background-image: url("../img/illustrationappdownload.png");
+    width: 444px;
+    height: 450px;
+    float: left;
+    margin-top: 60px;
+    background-size:cover;
+}
+.speaker-detail.appdownload .txt-content{
+    float: left;
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.googleplay{
+    
+    background-image: -moz-linear-gradient( 120deg, rgb(59,38,219) 1%, rgb(123,25,203) 100%);
+    background-image: -webkit-linear-gradient( 120deg, rgb(59,38,219) 1%, rgb(123,25,203) 100%);
+    background-image:  linear-gradient( 120deg, rgb(59,38,219) 1%, rgb(123,25,203) 100%);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+    width: 230px;
+    height: 70px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 35px;
+}
+.google-circle{
+    border-radius: 50%;
+    background-color: rgb(134, 49, 209);
+    padding: 22px;
+    width: 70px;
+    height: 70px;
+    float: left;
+    box-sizing: border-box;
+}
+
+._appstore{
+  background-image: -moz-linear-gradient( 90deg, rgb(1,132,255) 1%, rgb(1,171,255) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(1,132,255) 1%, rgb(1,171,255) 100%);
+  background-image:  linear-gradient( 90deg, rgb(1,132,255) 1%, rgb(1,171,255) 100%);
+  box-shadow: 0px 8px 25px 0px rgba(0, 0, 0, 0.08);
+}
+._appstore-circle{
+    background-color: rgb(27, 169, 255);
+}
+.contactus{
+    margin-top: 30px;
+    
+    
+}
+.contactus input{
+    text-align: left;
+    width: 450px;
+    height: 60px;
+    background-color: #12387e00;
+    border-radius: 10px;
+    border: 1px solid #12387e;
+    margin-bottom: 20px;
+   
+    
+}
+
+.event-pic-info.contactbg{
+    
+    height: 878px;
+    background-image: url("../img/contactbg.png");
+}
+.phone-email{
+ background-color: rgb(0, 18, 50);;
+ text-align: left;
+ padding:60px 0px 60px 0px;
+position: absolute;
+  width: 541px;
+  height: 167px;
+  margin-top: 590px;
+  box-sizing: border-box;
+}
+.phone-email .imgholder{
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.phone-email .txtholder{
+    float: left;
+    
+    
+}
+.phone-email .line{
+    height: 47px;
+    border-left: 1px solid #516184;
+    float: left;
+    margin-left: 30px;
+    
+    
+}
+.divGrid{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(auto, auto));
+    gap:30px; 
+
+}
+
+  
+.gridItem {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(84, 67, 160, 0.301);
+    border-radius: 30px;
+
+    width: 255px;
+    height: 191px;
+    z-index: 98;
+  }
+.gridItem:hover{
+    background-image: linear-gradient( 120deg, rgb(59,38,219) 1%, rgb(123,25,203) 100%);
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+.gridItem .iconholder{
+    padding: 12px;
+    border-radius: 50%;
+    background-image: linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    background-image: linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+    box-shadow: 0px 10px 15px 0px rgba(59, 55, 188, 0.5); 
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 106px;
+}
+.gridItem i{
+width: 30px;
+height: 20px;
+color: white;
+}
+.white-34{
+    font-size: 34px;
+    color: white;
+}
+.blog-left{
+    float: left;
+    width: 730px;
+    margin-top: 300px;
+
+}
+.blog-imgholder{
+    width: 730px;
+    height: 351px;
+    background-color: #75777a;
+    border-radius: 10px;
+    
+}
+.blog-content{
+    text-align: left;
+    border-radius: 10px;
+    background-color: #011c4c;
+    margin-bottom: 30px;
+}
+.none{
+    text-transform: none;
+
+}
+
+.blog-txtholder{
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+.blog-txtholder i{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aqua;
+}
+.bottom-blog{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #12387e;
+}
+.bottom-blog img{
+    position: relative;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bottom-blog .readmore{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: -25px;
+}
+.blog-right{
+    float: right;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 300px;
+   
+}
+.right-content{
+    padding:30px;
+    box-sizing: border-box;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #011c4c;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.right-content .normalinput{
+    width: 280px;
+}
+.right-content .btn{
+    margin-top: 30px;
+    
+}
+.right-content .imgholder{
+    margin-top: 30px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: grey;
+    
+}
+.right-content i{
+    margin-left: 0px;
+    margin-right: 10px;
+    color: aqua;
+}
+.right-content .iconbar{
+    margin-top: 30px;
+    margin-left: 0px;
+    gap:0px
+}
+.right-content .iconbar i{
+    color: white;
+    margin-left: 10px;
+}
+.right-content .iconbar a:hover{
+    background-image: linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.divline{
+    padding: 10px;
+    border-bottom: 1px dashed #12387e;
+}
+.right-content .btnftg{
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 30px;
+    border:1px solid #12387e;
+    padding: 10px 30px 10px 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.right-content .btnftg:hover{
+    background-image: linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+} 
+  
+  
+  
+
+

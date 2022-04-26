@@ -1,0 +1,54 @@
+.event-banner.sportpage{
+background-image: url(../img/sportbackground.png);
+margin-top: -83px;
+}
+.event-banner.eventpage{
+    background-image: url(../img/sprtbg.png);
+    margin-top: -83px;
+    }
+.ticket-book.sportstyle{
+    background-image: url(../img/outlinesport.png);
+    background-size:cover;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    width: 360px;
+    height: 310px;
+    padding-top: 70px;
+}
+.tagg{
+  background-image: -moz-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+  background-image: -webkit-linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+  background-image:  linear-gradient( 169deg, rgb(85,96,255) 17%, rgb(170,82,161) 63%, rgb(255,67,67) 100%);
+  border-radius: 0 25px 25px 0;
+  width: 187px;
+  height: 49px;
+  position: absolute;
+  margin-top: -40px;
+  margin-left: -30px;
+  padding-top: 10px;
+  box-sizing: border-box; 
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.5;
+
+}
+.ticket-book.getticket-sportstyle{
+    background-image: url(../img/bg_outlinesport.png);
+    background-size:cover;
+        border-radius: 20px;
+        background-color: rgb(255, 255, 255);
+        width: 210px;
+        height: 196px;
+        padding-top: 80px;
+
+}
+.tagg.getticket-sportstyle{
+    margin-top: -50px;
+}
+.chose-not.getticket-sportstyle{
+margin-left: 55px;
+}
+.chose-yes.getticket-sportstyle{
+    margin-left: 55px;
+}
