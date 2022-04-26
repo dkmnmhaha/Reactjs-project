@@ -97,7 +97,7 @@ function Sportdetail ()  {
 
                         <a class="white-50">{sport.name}</a><br/>
                         <a class="white--16pt normalfont">{sport.about}
-                        </a>
+                        </a><br/>
                         <button class="bookticketbtn" onclick="window.location='Eventdetail2.html';">BOOK TICKET</button>
                     </div>
                     <div class="event-pic-info">
