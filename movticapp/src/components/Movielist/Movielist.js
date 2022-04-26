@@ -16,7 +16,7 @@ function Movielist(props) {
                        
                        <div className="card-head">
                                
-                           <img src={process.env.PUBLIC_URL+props.movie.movie_img} alt="" className="card-img" />
+                           <img src={props.movie.movie_img} alt="" className="card-img" />
                            </div>
                            
                        <div className="card-body">

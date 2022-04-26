@@ -93,9 +93,9 @@ if(style==1){
                         
                 <div className="leftmenu">
                     
-                    <a  className="active" href="#about"><img className="imgicon" src="./img/care.png"/> 24X7 Care</a>
-                    <a className="active" href="#about"> <img className="imgicon" src="./img/assurance.png"/> 100% Asurance</a>
-                    <a href="#about"><img className="imgicon" src="./img/promise.png"/>Our Promise</a>
+                    <a  className="active" href="#about"><img className="imgicon" src="/img/care.png"/> 24X7 Care</a>
+                    <a className="active" href="#about"> <img className="imgicon" src="/img/assurance.png"/> 100% Asurance</a>
+                    <a href="#about"><img className="imgicon" src="/img/promise.png"/>Our Promise</a>
                     
                 </div>
                 <div className="leftbanner1">                    
