@@ -40,7 +40,7 @@ function Moviedetail ()  {
                 
                                 <div className="movieleftbar">
                                     <div className="movie-poster"> 
-                                    <img src={process.env.PUBLIC_URL+movie.movie_img} alt="" className="card-img" />                      
+                                    <img src={movie.movie_img} alt="" className="card-img" />                      
                                     </div>
                                     <div className="resolution-button">
                                         <button>2D</button><button>IMAX 2D</button><button>4DX</button>
@@ -114,7 +114,7 @@ function Moviedetail ()  {
                     <div className="Photos-zone">
                         <h1>PHOTOS</h1>
                         <div className="Photos-grid">
-                            <img src={movie.movie_img}/><img src={process.env.PUBLIC_URL+movie.movie_img}/><img src={process.env.PUBLIC_URL+movie.movie_img}/>
+                            <img src={movie.movie_img}/><img src={movie.movie_img}/><img src={movie.movie_img}/>
                         </div>
                     </div>
                     <Tabs>
