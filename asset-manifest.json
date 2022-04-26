@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Reactjs-project/static/css/main.c775c3d6.css",
-    "main.js": "/Reactjs-project/static/js/main.ed0dd0f2.js",
+    "main.js": "/Reactjs-project/static/js/main.598f2088.js",
     "static/js/787.469646ba.chunk.js": "/Reactjs-project/static/js/787.469646ba.chunk.js",
     "static/media/icofont.woff": "/Reactjs-project/static/media/icofont.dad3accba068281878f1.woff",
     "static/media/icofont.woff2": "/Reactjs-project/static/media/icofont.9c33516aab48c61e3081.woff2",
@@ -29,11 +29,11 @@
     "static/media/revicons.woff": "/Reactjs-project/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Reactjs-project/index.html",
     "main.c775c3d6.css.map": "/Reactjs-project/static/css/main.c775c3d6.css.map",
-    "main.ed0dd0f2.js.map": "/Reactjs-project/static/js/main.ed0dd0f2.js.map",
+    "main.598f2088.js.map": "/Reactjs-project/static/js/main.598f2088.js.map",
     "787.469646ba.chunk.js.map": "/Reactjs-project/static/js/787.469646ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c775c3d6.css",
-    "static/js/main.ed0dd0f2.js"
+    "static/js/main.598f2088.js"
   ]
 }
