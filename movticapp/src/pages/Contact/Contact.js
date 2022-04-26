@@ -47,7 +47,7 @@ function Contact ()  {
                     <div className="event-pic-info contactbg">
                         <div className='phone-email'>
                             <div className='imgholder'>
-                            <img src="/img/Phonenumber.png"/>
+                            <img src={process.env.PUBLIC_URL+"/img/Phonenumber.png"}/>
                             </div>
                             <div className='txtholder'>
                                 <a>PHONE NUMBER</a><br/>
@@ -55,14 +55,14 @@ function Contact ()  {
                             </div>
                             <div className='line'></div>
                             <div className='imgholder'>
-                            <img src="/img/email.png"/>
+                            <img src={process.env.PUBLIC_URL+"/img/email.png"}/>
                             </div>
                             <div className='txtholder'>
                                 <a>EMAIL</a><br/>
                                 <a className='aqua'>info@movtic.com</a>
                             </div>
                         </div>
-                        <img src="/img/contactbg.png"/>
+                        <img src={process.env.PUBLIC_URL+"/img/contactbg.png"}/>
                         
                         
                         

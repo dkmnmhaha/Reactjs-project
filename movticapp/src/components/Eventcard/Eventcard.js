@@ -17,7 +17,7 @@ function Eventcard(props) {
                        
                        <div className="card-head">
                         <div className="bgdate"><a class="date-corner">28</a><br/><a class="month-corner">Dec</a></div>
-                           <img src={process.env.PUBLIC_URL+props.event.image} alt="" className="card-img" />
+                           <img src={props.event.image} alt="" className="card-img" />
                            </div>
                            
                        <div className="card-body">
