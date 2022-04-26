@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Reactjs-project/static/css/main.c775c3d6.css",
+    "main.js": "/Reactjs-project/static/js/main.ed0dd0f2.js",
+    "static/js/787.469646ba.chunk.js": "/Reactjs-project/static/js/787.469646ba.chunk.js",
+    "static/media/icofont.woff": "/Reactjs-project/static/media/icofont.dad3accba068281878f1.woff",
+    "static/media/icofont.woff2": "/Reactjs-project/static/media/icofont.9c33516aab48c61e3081.woff2",
+    "static/media/headerbackground.png": "/Reactjs-project/static/media/headerbackground.19e06821f557060d082e.png",
+    "static/media/homepagebg.png": "/Reactjs-project/static/media/homepagebg.19e06821f557060d082e.png",
+    "static/media/Moviedetailpage.png": "/Reactjs-project/static/media/Moviedetailpage.44977ede6e420c16a92b.png",
+    "static/media/footbarbackground.png": "/Reactjs-project/static/media/footbarbackground.a828790578ab233f87c7.png",
+    "static/media/sprtbg.png": "/Reactjs-project/static/media/sprtbg.e133beb12670f6da4b3e.png",
+    "static/media/1920x500.png": "/Reactjs-project/static/media/1920x500.c38d7031d72d2eb10bee.png",
+    "static/media/sportbg.png": "/Reactjs-project/static/media/sportbg.11686a09426fb01bb380.png",
+    "static/media/eventdetail.png": "/Reactjs-project/static/media/eventdetail.afd8a7764efedfe695ed.png",
+    "static/media/illustrationappdownload.png": "/Reactjs-project/static/media/illustrationappdownload.268e917097f335402316.png",
+    "static/media/contactbg.png": "/Reactjs-project/static/media/contactbg.385dc848dd9f4330916f.png",
+    "static/media/sportbackground.png": "/Reactjs-project/static/media/sportbackground.fe9b952052038088ba8e.png",
+    "static/media/search.png": "/Reactjs-project/static/media/search.020290be5e1a2aa157ad.png",
+    "static/media/illustration_bg.png": "/Reactjs-project/static/media/illustration_bg.7efd8332f0e21dd8aed2.png",
+    "static/media/DigitalMarketing.png": "/Reactjs-project/static/media/DigitalMarketing.fc8933fd09f79f31fbc0.png",
+    "static/media/bg_outline_silver.png": "/Reactjs-project/static/media/bg_outline_silver.422588ec2b7e170332f0.png",
+    "static/media/bg_outline_premium.png": "/Reactjs-project/static/media/bg_outline_premium.5094de127f654249861f.png",
+    "static/media/bg_outline_vip.png": "/Reactjs-project/static/media/bg_outline_vip.1235d1fb807968c94f41.png",
+    "static/media/revicons.eot": "/Reactjs-project/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/Reactjs-project/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/moviebg.png": "/Reactjs-project/static/media/moviebg.a9b4a9751b8e1f07e790.png",
+    "static/media/moviepagebg.png": "/Reactjs-project/static/media/moviepagebg.a9b4a9751b8e1f07e790.png",
+    "static/media/revicons.woff": "/Reactjs-project/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/Reactjs-project/index.html",
+    "main.c775c3d6.css.map": "/Reactjs-project/static/css/main.c775c3d6.css.map",
+    "main.ed0dd0f2.js.map": "/Reactjs-project/static/js/main.ed0dd0f2.js.map",
+    "787.469646ba.chunk.js.map": "/Reactjs-project/static/js/787.469646ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c775c3d6.css",
+    "static/js/main.ed0dd0f2.js"
+  ]
+}
